@@ -19,21 +19,17 @@ margin: 0 auto;
 background-color: rgb(44, 44, 44);
 height: 300px;
 display: flex;
+width: 100%;
 align-items: center;
 justify-content: center;
-
 /* background-image: url(./Pic.jpg); */
-background-size: 100%;
+/* background-size: 100%; */
+/* shape-outside: none; */
 
 }
-#header h1{
-color: white;
-font-size: 80px;
-text-align: center;
-/* padding: 30px; */
-letter-spacing: 8px;
-word-spacing: 10px;
-
+#header img{
+    margin: 55px 0 0 100px;
+width: 400px;
 }
 #menu{
 background-color: rgb(0, 104, 117);
@@ -59,13 +55,14 @@ color: rgb(255, 255, 255);
     border-radius: 20px;
     outline: none;
     text-indent: 10px;
+    border: 1px solid grey;
 }
 #menu li:hover{
 background-color: teal;
 }
 
 #content{
-/* padding: 20px; */
+padding: 20px;
 width: 80%;
 float: left;
 min-height: 500px;
